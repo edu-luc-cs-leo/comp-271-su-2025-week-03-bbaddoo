@@ -1,0 +1,3 @@
+My assignment reflection:
+
+My assignment did have all my comments explaing what I did and my logic for why it would work that way. I had a slight issue with my Github when initally doing the assignment but later on on a different computer I tested it and it seemed to work fine. We had pretty much the smae answer the solution given was more compact as in the first 2 lines I had int child= and int parent =. Besides that it all seemed fine. I learned that there is more simple ways tp get the answer to the assignment as the solution was only 5 lines long and I learned how to properly implement it as well.

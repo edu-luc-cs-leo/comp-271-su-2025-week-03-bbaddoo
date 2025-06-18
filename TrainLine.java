@@ -28,7 +28,8 @@ public class TrainLine {
 
     /**
      * Adds a new station after the last station of a trainline.
-     * 
+     * do not go through the whole line each time a new station is added 
+     * the head and tail are both set for the first staion
      * @param name String with name of new station to create and add
      */
     public void add(String name) {
@@ -36,6 +37,7 @@ public class TrainLine {
         if (this.head == null) {
             // No stations exist in this line. Make this new station
             // the head station of the line
+            this.tail = newStation;
             this.head = newStation;
         } else {
             // The line has at least one station (the head station).
